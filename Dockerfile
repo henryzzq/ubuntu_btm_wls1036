@@ -21,6 +21,6 @@ RUN $JAVA_HOME/bin/java -jar wls1036_generic.jar -mode=silent -silent_xml=/wls-s
 	rm /wls1036_generic.jar /wls-silent.xml 
 	
 # Expose Node Manager default port, and also default http/https ports for admin console
-EXPOSE 7001 5556
+EXPOSE 7001 5556 8453 36963
 
 CMD ["bash"]
