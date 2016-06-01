@@ -4,7 +4,7 @@ MAINTAINER Henry Zhao (https://www.linkedin.com/in/dreamerhenry)
 
 USER root
 
-ENV PATH $PATH:/root/Oracle/Middleware/wlserver_10.3/common/bin:/root/Oracle/Middleware/user_projects/domains/base_domain/bin
+ENV PATH $PATH:/root/Oracle/Middleware/wlserver_10.3/common/bin
 ENV CONFIG_JVM_ARGS '-Djava.security.egd=file:/dev/./urandom'
 ENV JAVA_HOME $JAVA16_HOME
 
